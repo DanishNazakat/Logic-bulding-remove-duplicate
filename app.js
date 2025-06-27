@@ -2,7 +2,7 @@
 // remove duplicate alphabet
 
 
-let alp = ["a", "b", "c", "d", "e", "a", "f", "c", "a", "`z`"];
+let alp = ["a", "b", "c", "d", "e", "a", "f", "c", "a", "z"];
 console.log("Original : "+alp);
 
 
