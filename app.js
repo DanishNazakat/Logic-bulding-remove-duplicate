@@ -3,7 +3,9 @@
 
 
 let alp = ["a", "b", "c", "d", "e", "a", "f", "c", "a", "`z`"];
-console.log(alp);
+console.log("Original : "+alp);
+
+
 for (let i = 0; i < alp.length; i++) {
     for (let j = i + 1; j <= alp.length - 1; j++) {
         if (alp[i] === alp[j]) {
@@ -16,7 +18,7 @@ for (let i = 0; i < alp.length; i++) {
     }
 }
 
-console.log(alp);
+console.log("After removing duplicate : "+alp);
 
 
 
